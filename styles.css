@@ -1,0 +1,32 @@
+
+
+
+
+.layout{
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+    font-size: 60px;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 50px;
+    font-size: 40px;
+    border: 5px;
+    border-style: solid;
+}
+button,#ppl {
+    width: 200px;  
+    height: 80px;
+    font-size: 40px;
+    border: 5px;
+    border-style: solid;
+}
+#splitBtn{
+    width: 100px;  
+    height: 80px;
+    font-size: 40px;
+    border: 5px;
+    border-style: solid;
+}
