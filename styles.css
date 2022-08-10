@@ -1,6 +1,9 @@
 
 
-
+body{
+    background-color: rgb(209, 209, 209);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 .layout{
     display: flex;
@@ -15,18 +18,43 @@ input[type="text"] {
     font-size: 40px;
     border: 5px;
     border-style: solid;
+    border-radius: 15px;
+    
+   
 }
-button,#ppl {
-    width: 200px;  
-    height: 80px;
+button,#ppl,#splitBtn {
+    width: 400px;  
+    height: 60px;
     font-size: 40px;
     border: 5px;
     border-style: solid;
+    border-radius: 15px;
 }
 #splitBtn{
-    width: 100px;  
-    height: 80px;
-    font-size: 40px;
+    float: right;
+    margin-top: 22px;
+}
+form{
     border: 5px;
     border-style: solid;
+    margin-top: 1%;
+    padding: 3%;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    
+}
+label{
+    letter-spacing: 5px;
+    text-decoration:underline;
+    
+}
+#btn,#splitButton,#ppl{
+    margin-top: 22px;
+}
+#ppl{
+   float: left;
+   
+}
+button,#splitBtn{
+background-color:  rgb(209, 209, 209);
 }
